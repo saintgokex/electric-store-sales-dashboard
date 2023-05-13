@@ -66,4 +66,4 @@ The store shoud:
 * Regularly monitor and analyze sales data, customer behavior, and market trends to identify emerging opportunities and adapt its strategies accordingly. 
 * Stay informed about new technologies, product innovations, and changing consumer preferences to stay ahead of the competition. 
 * Adjust its marketing mix, pricing strategies, and product offerings based on the evolving dynamics of the market.
-### Click [here](https://app.powerbi.com/groups/me/reports/b7133a87-91ab-4668-bd46-a4bfcbbc985c/ReportSectionbb9e9410e95be6185c70?bookmarkGuid=e90823d6-9cd4-4457-ba83-1d78d78c73ef&bookmarkUsage=1&ctid=66b3f0c2-8bc6-451e-9603-986f618ae682&portalSessionId=2dbb8416-c5b5-4bbd-bf61-1061e7c4d5f9&fromEntryPoint=export) to interact with the dashboard
+### Click [here](https://app.powerbi.com/groups/me/reports/b7133a87-91ab-4668-bd46-a4bfcbbc985c) to interact with the dashboard
