@@ -27,7 +27,7 @@ The following measures were created using dax expression:
 4. Net Profit: This measure calculates the net profit by subtracting the total cost from the total revenue. It provides insights into the profitability of the electronics store. The DAX function used for this measure is as follows:
 `Net Profit = [Total Revenue] - [Total Cost]`
 # Data Visualization and Dashboard
-![electronic sales dashboard 1](https://github.com/saintgokex/electric-store-sales-dashboard/blob/main/electronic%20sales%20dashboard%201.png)
+![electronic sales dashboard1](https://github.com/saintgokex/electric-store-sales-dashboard/blob/main/electronic%20sales%20dashboard%201.png)
 ![electronic sales dashboard 2](https://github.com/saintgokex/electric-store-sales-dashboard/blob/main/electronic%20sales%20dashboard%202.png)
 ## Key Insights
 * Computer Accessories has the highest number of orders although Camcorders generated the most amount of profit for the store, followed by digital SLR cameras.
