@@ -3,7 +3,7 @@
 This documentation provides an overview of the analysis conducted on an electronics store's sales data using Power BI. The analysis covers a dataset containing 15,000 records of orders.
 ## Key Functionality
 ### Data Cleaning and Validation:
-The dataset was checked for missing data, duplicate data and incosistent formats and the data passed the cleanliness test. Therefore, very little time is spent on cleaning this data. 
+The dataset was checked for missing data, duplicate data and incosistent data formats were ammended - all the columns involving currencies were changed to Nigerian local currency (Naira). 
 ### Best Performing Products: 
 This functionality allows you to identify the top-selling products based on sales revenue and number of orders. Gain insights into the products that contribute most to the store's success and make data-driven decisions regarding inventory management, marketing strategies, and product promotions.
 
@@ -31,8 +31,8 @@ The following measures were created using dax expression:
 ![electronic sales dashboard 2](https://github.com/saintgokex/electric-store-sales-dashboard/blob/main/electronic%20sales%20dashboard%202.png)
 ## Key Insights
 * Computer Accessories has the highest number of orders although Camcorders generated the most amount of profit for the store, followed by digital SLR cameras.
-* South South generated the most amount of profit and recorded highest amount of orders among the seven zones in this dataset (including the Federal Capital Terrritory) with Ebonyi being the most profitable state. 
-* Approximately 70% of the orders and profit were generated from the store, making it the best performing channel over the three other channels including online and retailer. 
+* South East generated the highest amount of profit while South South recorded the highest amount of orders among the seven zones in this dataset (including the Federal Capital Terrritory) with Ebonyi being the most profitable state. 
+* Approximately 70% of the orders were made at the store and it generated 2.76 more profit over its closest counterpart (online) making it the best performing channel over the three other channels.
 * Deeper Promotions and Adventist Promotion are the most effective promotions.
 # Recommendation
 ### Leverage the Demand for Computer Accessories
@@ -44,12 +44,12 @@ Since Camcorders generated the most profit, the store should:
 * Highlight unique features, benefits, and competitive pricing to attract potential customers. 
 * Ensure that the supply chain is optimized to meet the demand for Camcorders.
 
-### Strategize for the Most Productive State (South South) 
-Given that the South South region is the most productive state, the store should: 
-* Allocate additional resources and marketing efforts to this region. 
-* Understand the preferences and needs of customers in this region, and tailor its product offerings, marketing campaigns, and promotions accordingly. 
+### Strategize for the Most Productive Regions
+Given that the South South and South East are the most productive regions, the store should: 
+* Allocate additional resources and marketing efforts to these regions. 
+* Understand the preferences and needs of customers in these regions, and tailor its product offerings, marketing campaigns, and promotions accordingly. 
 * Establish strong partnerships with local retailers or distributors to expand its reach 
-* Improve market penetration in the South South region.
+* Improve market penetration in these regions.
 
 ### Maximize Conversion with Adventist and Deeper Promotions
 * Focus on enhancing the conversion rates by leveraging the success of Adventist and Deeper promotions. 
