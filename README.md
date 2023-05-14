@@ -22,9 +22,11 @@ fectiveness, and track the overall progress of the business. The following featu
 The following measures were created using dax expression:
 1. No of Orders: This measure calculates the total number of orders made. It provides insights into the overall volume of sales transactions. The DAX function used to create this measure is as follows:
 ```No of Orders = COUNT(Sales_Details[Order ID])```
-2. Total Cost: This measure calculates the total cost of all orders. It helps analyze the overall expenditure incurred in procuring the products sold. The DAX function used for this measure is as follows: `Total Cost = SUM('Orders'[Cost])`
-3. Total Revenue: This measure calculates the total revenue generated from the sales. It provides an overview of the total income generated from the orders. The DAX function used for this measure is as follows: `Total Revenue = SUM('Orders'[Revenue])`
-4. Net Profit: This measure calculates the net profit by subtracting the total cost from the total revenue. It provides insights into the profitability of the electronics store. The DAX function used for this measure is as follows:
+2. TotalCost: This measure calculates the total cost of each order. The DAX function used for this measure is as follows: `TotalCost = Sales_Details[Unit Cost] * Sales_Details[Order Qty]` 
+3. Total Price: This measure calculates the total price of each order. The DAX function used for this measure is as follows: `Total Price = Sales_Details[Unit Price] * Sales_Details[Order Qty]`
+4. Total Cost: This measure calculates the total cost of all orders. It helps analyze the overall expenditure incurred in procuring the products sold. The DAX function used for this measure is as follows: `Total Cost = SUM(Sales_Details[TotalCost])`
+5. Total Revenue: This measure calculates the total revenue generated from the sales. It provides an overview of the total income generated from the orders. The DAX function used for this measure is as follows: `Total Revenue = SUM(Sales_Details[Total Price])`
+6. Net Profit: This measure calculates the net profit by subtracting the total cost from the total revenue. It provides insights into the profitability of the electronics store. The DAX function used for this measure is as follows:
 `Net Profit = [Total Revenue] - [Total Cost]`
 # Data Visualization and Dashboard
 ![electronic sales dashboard1](https://github.com/saintgokex/electric-store-sales-dashboard/blob/main/electronic%20sales%20dashboard%201.png)
